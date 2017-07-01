@@ -1,0 +1,62 @@
+/*https://www.awwwards.com/websites/css3/*/
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: white;
+}
+
+.active {
+    background-color: white;
+}
+
+.chosen {
+    background-color: #fcfbf4;
+    border-bottom: 4px solid #18084f;
+}
+
+.navbar {
+    border-top: 7px solid #18084f;
+    background-color: white;
+    height: 60px;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 5px 10px -5px #777;
+}
+
+#content {
+    height: 100%;
+}
+
+#logo {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-default > .container > .navbar-collapse > .navbar-nav > li {
+        background-color: white;
+        border: 1px solid whitesmoke;
+    }
+    
+    .shade {
+        box-shadow: inset 0px 0px 200px 20px rgba(0,0,0,0.5);
+    }
+    
+    .shadow {
+    -webkit-box-shadow: 0 0x 0px 0px #777;
+	-moz-box-shadow: 0px 0px 0px 0px #777;
+	box-shadow: 0px 0px 0px 0px #777;
+    }
+   /* .shade {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    -moz-opacity:0.70;
+    filter: alpha(opacity=70);
+    height: 100%;
+    width: 100%;
+    background-repeat:repeat;
+    position:fixed;
+    }/ */
