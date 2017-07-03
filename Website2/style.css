@@ -1,0 +1,85 @@
+/*  
+    font-family: 'Berkshire Swash', cursive;
+    font-family: "Lato", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fauna One', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: "Playfair-Display",  serif;
+    font-family: 'Mr De Haviland', cursive;
+    font-family: 'Fredericka the Great', cursive;
+*/
+
+
+#cover {
+    color: white;
+    background-image: url(darklab1440.JPG);
+    background-size: cover;
+    background-position: center ;
+}
+
+.homeContent {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.homeContent h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    color:  #18084f;
+}
+
+.navbar {
+    font-family: "Lato", sans-serif;
+    border: none;
+    background-color: transparent;
+}
+
+.jumbotron {
+    font-family: "Lato", sans-serif;
+    background-color: transparent;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron h2 {
+    font-family: 'Mr De Haviland', cursive;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+}
+
+li:link {
+  color: red;
+  text-decoration: none;
+}
+li:hover {
+    margin: none;
+    padding: none;
+    text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #logo {
+        visibility: hidden;
+    }
+    
+    .navbar-default .navbar-nav > li a{
+        color: black;
+        background:rgba(255,255,255,0.7);
+        border-bottom: rgba(255,255,255,0.3) 1px solid;
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+    }   
+    
+    .icon-bar { 
+        background-color: darkgray;
+    }
+}
