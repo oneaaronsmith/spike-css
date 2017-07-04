@@ -31,11 +31,12 @@
     <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
 </head>
 <body id="font-control">
     <div id="cover">
         <div class="navbar">
-        <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+        <nav id="navbar" class="navbar navbar-default navbar-static-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button id="navbar-toggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-control="navbar">
@@ -44,14 +45,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#" id='logo'><span>&Alpha;&Chi;&Sigma; Delta Chapter - Mizzou </span></a>
+                    <a class="navbar-brand" href="#" id='logo'><span>&Alpha;&Chi;&Sigma; </span></a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent" style="">
                     <ul style="margin-top: 0px;" class="nav navbar-nav">
                         <li id="homeBtn" class="chosen"><a href="#">Home</a></li>
-                        <li class="members"><a  href="#!members">Actives</a></li>
-                        <li class="pledge"><a  href="#!pledge">Prospective Members</a></li>
-                        <li class="donate"><a href="#!donate">Contact</a></li>
+                        <li class="actives"><a  href="#!actives">Actives</a></li>
+                        <li class="pledge"><a  href="#!pledge">Pledge Info</a></li>
+                        <li class="donate"><a href="#!donate">Donate</a></li>
                     </ul>
                 </div>
             </div>
@@ -60,6 +61,7 @@
         <div class="jumbotron">
             <img src="axebwlogo.png">
             <h1>Alpha Chi Sigma</h1>
+            <h4>Delta Chapter - University of Missouri, Columbia</h4>
         </div>
     </div>
     <div class="homeContent container" ng-app="axe">
@@ -72,11 +74,20 @@
     app.config(function($routeProvider) {
         $routeProvider
         .when("/", {
-        templateUrl: "./home.html"
+        templateUrl: "./views/home.html"
         })
         .when("/donate", {
-            templateUrl: "./donate.html"
-        });
+            templateUrl: "./views/donate.html"
+        })
+        .when("/pledge", {
+            templateUrl: "./views/pledge.html"
+        })
+        .when("/actives", {
+            templateUrl: "./views/actives.html"
+        })
+        .when("/donate", {
+            templateUrl: "./views/donate.html"
+        })
         
     });
 </script>
