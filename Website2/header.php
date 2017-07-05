@@ -33,6 +33,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
 </head>
+
 <body id="font-control">
     <div id="cover">
         <div class="navbar">
@@ -45,51 +46,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#" id='logo'><span>&Alpha;&Chi;&Sigma; </span></a>
+                    <a class="navbar-brand" href="/index.php" id='logo'><span>&Alpha;&Chi;&Sigma; </span></a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent" style="">
                     <ul style="margin-top: 0px;" class="nav navbar-nav">
-                        <li id="homeBtn" class="chosen"><a href="#">Home</a></li>
-                        <li class="actives"><a  href="#!actives">Actives</a></li>
-                        <li class="pledge"><a  href="#!pledge">Pledge Info</a></li>
-                        <li class="donate"><a href="#!donate">Donate</a></li>
+                        <li id="homeBtn" class="chosen"><a href="./index.php">Home</a></li>
+                        <li class="actives"><a  href="./actives.php">Actives</a></li>
+                        <li class="pledge"><a  href="./pledge.php">Pledge Info</a></li>
+                        <li class="donate"><a href="./donate.php">Donate</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         </div>
-        <div class="jumbotron">
-            <img src="axebwlogo.png">
-            <h1>Alpha Chi Sigma</h1>
-            <h4>Delta Chapter - University of Missouri, Columbia</h4>
-        </div>
-    </div>
-    <div class="homeContent container" ng-app="axe">
-       <div ng-view></div>
-    </div>
-
-<script>
-    var app = angular.module('axe', ['ngRoute']);
-
-    app.config(function($routeProvider) {
-        $routeProvider
-        .when("/", {
-        templateUrl: "./views/home.html"
-        })
-        .when("/donate", {
-            templateUrl: "./views/donate.html"
-        })
-        .when("/pledge", {
-            templateUrl: "./views/pledge.html"
-        })
-        .when("/actives", {
-            templateUrl: "./views/actives.html"
-        })
-        .when("/donate", {
-            templateUrl: "./views/donate.html"
-        })
-        
-    });
-</script>
-</body>
-</html>

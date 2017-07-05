@@ -20,12 +20,12 @@
     background-position: center ;
 }
 
-.homeContent {
+.content {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
-.homeContent h2 {
+.content h1 {
     font-family: 'Oswald', sans-serif;
     color:  #18084f;
 }
@@ -39,7 +39,7 @@
 }
 
 .navbar .navbar-brand span {
-    font=size: 1em;
+    font-size: 1em;
     font-family: "Playfair-Display",  serif;
 }
 
