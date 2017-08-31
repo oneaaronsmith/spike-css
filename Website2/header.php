@@ -6,6 +6,10 @@
     <!--<base href="/" />-->
     <!-- Include device viewport to help it adjust widths -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- include font-awesome for icons  -->
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+
     <!-- Include jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
  

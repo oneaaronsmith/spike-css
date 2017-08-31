@@ -12,6 +12,9 @@
     prussian blue: #130540
 */
 
+a .btn {
+    border-radius: 5px;
+}
 
 #cover {
     color: white;
@@ -28,6 +31,16 @@
 .content h1 {
     font-family: 'Oswald', sans-serif;
     color:  #18084f;
+}
+
+.disclaimer small {
+    font-size: 0.4em;
+}
+
+#footer {
+    background-color: rgb(0,0,0);
+    text-align: center;
+    color: white;
 }
 
 .navbar {
@@ -89,26 +102,9 @@ ol li:hover {
     text-shadow: none;
 }
 
-@media only screen and (max-width: 768px) {
-    
-    /*#logo {
-        visibility: hidden;
-    } */
-    
-    .navbar-default .navbar-nav > li a{
-        color: black;
-        background:rgba(255,255,255,0.7);
-        border-bottom: rgba(255,255,255,0.3) 1px solid;
-    }
-    
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        color: white;
-        background-color: transparent;
-    }   
-    
-    .icon-bar { 
-        background-color: darkgray;
-    }
+.semitransparent {
+    opacity: 0.5;
+    text-align: center;
 }
 
 .strike {
@@ -144,4 +140,25 @@ ol li:hover {
 .strike > span:after {
     left: 100%;
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-bar { 
+        background-color: darkgray;
+    }
+    
+    /*#logo {
+        visibility: hidden;
+    } */
+    
+    .navbar-default .navbar-nav > li a{
+        color: black;
+        background:rgba(255,255,255,0.7);
+        border-bottom: rgba(255,255,255,0.3) 1px solid;
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: white;
+        background-color: transparent;
+    }   
 }

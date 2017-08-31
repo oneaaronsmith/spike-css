@@ -9,7 +9,7 @@
  <div class="container content">
         <h1>Pledging</h1>
         <p>
-        We encourage any Mizzou student with a passion for chemistry to consider joining Alpha Chi Sigma! Our pledge process occurs every semester, so we have many opportunities to get involved. If you're interested, you should contact our Vice Master Alchemist at <b>agmx6d@mail.missouri.edu</b> and attend our information session early in the semester.
+        We encourage any Mizzou student with a passion for chemistry to consider joining Alpha Chi Sigma! Our pledge process occurs every semester, so we have many opportunities to get involved. If you're interested, you should contact our Vice Master Alchemist, Andrew, at <b>agmx6d@mail.missouri.edu</b>.
         </p>
         <p>
         As a professional fraternity, we understand that academics come first and we encourage our members to study hard. We're willing to work with you if you're having a busy semester, so don't let that discourage you from joining!
@@ -17,6 +17,13 @@
         <div class="strike">
            <span>&#x263d &#x263f &#x2640 &#x2609 &#x2642 &#x2643 &#x2644</span>
         </div>
+
+        <h1>Pledge Schedule</h1>
+        <p>TBA</p>
+        <div class="strike">
+           <span>&#x263d &#x263f &#x2640 &#x2609 &#x2642 &#x2643 &#x2644</span>
+        </div>
+        
         <h1>Membership Requirements</h1>
         <ol>
             <li>Must  be in the second course of a chemically related degree program (Chemistry, Biology, Biochemistry, Chemical Engineering, Pre-med, etc.)</li>
@@ -28,14 +35,21 @@
         <div class="strike">
            <span>&#x263d &#x263f &#x2640 &#x2609 &#x2642 &#x2643 &#x2644</span>
         </div>
+
         <h1>The Obligations of a Member of the Fraternity</h1>
         <ol>
-            <li>That a member will remember the Objects of the Fraternity and endeavor always to further them.</li>
+            <li>That a member will remember the objects of the fraternity and endeavor always to further them.</li>
             <li>That a member will pay promptly all financial obligations</li>
             <li>That a member will act so as never to be a reproach to Alpha Chi Sigma.</li>
             <li>That a member will cheerfully fulfill any assigned fraternal task.</li>
             <li>That a member will maintain as satisfactory a scholastic record as possible.</li>
         </ol>
+        <div class="strike">
+           <span>&#x263d &#x263f &#x2640 &#x2609 &#x2642 &#x2643 &#x2644</span>
+        </div>
+
+        <h1>Sacrificial Sign Ups</h1>
+        <p>Most people think the chemical sciences take advantage of natural laws of nature. That's fake news. Alpha Chi Sigma is devoted to keeping chemistry working by making deals with Minerva, Mimir, and Anulap. (To be honest, we lost track of which one helps us sometime in the 70's) If you would be interested in being this decade's sacrifice let us know at one of the pledge events.</p>
 </div>
 
 <?php include("footer.php") ?>
