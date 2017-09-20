@@ -8,10 +8,7 @@
  <div class="container content">
     <h1>Announcements</h1>
     <p>
-    First meeting is this week on Wednesday, the thirtieth day of August in the year of our Lord, two thousand and seventeen. 6:30pm. Physics 102 - Hope to see you there!
-    </p>
-    <p>
-    The recruitment party is this week on Thursday at 6:30pm in Physics 104.
+    Next chapter meeting is September 20 at 6:30pm
     </p>
     <p>
     TSwift's new album drops November 10th.
@@ -19,15 +16,23 @@
     <p>
     <b>You can eat Toll House cookie dough without any risk of getting sick.</b>
     </p>
-    <p>
-
-    </p>
 
     <div class="strike">
        <span>&#x263d &#x263f &#x2640 &#x2609 &#x2642 &#x2643 &#x2644</span>
     </div>
 
     <h1>Schedule</h1>
+    <ul>
+        <li>Wednesday, September 20 6:30pm: Chapter Meeting and Formal Pledging</li>
+        <li>Wednesday, October 4 6:30pm: Chapter Meeting and Jelly Bean Night</li>
+        <li>Wednesday, October 18 6:30pm: Chapter Meeting and Pledge Test</li>
+        <li>Thursday, October 26 5:00pm: Big Sib Hunt</li>
+        <li>Thursday, October 28 9:00pm: Unsanctioned Halloween Party</li>
+        <li>Wednesday, November 1 6:30pm: Chapter Meeting and Froyo Night</li>
+        <li>Saturday, Novermber 4: <b>Initiation</b></li>
+        <li>Friday, November 10 TBA: Fall Fest</li>
+        <li>Saturday, December 2 TBA: AXE Christmas Party</li>
+    </ul>
     <p>
         TBA
     </p>
